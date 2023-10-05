@@ -29,10 +29,12 @@ Visita `http://localhost:4200/` en tu navegador.
 
 Si prefieres ejecutar la aplicación usando Docker, sigue estos pasos:
 
-1. Construye la imagen Docker:
+1. Navega al directorio del proyecto: cd TestAgap.
+   
+2. Construye la imagen Docker:
 docker build -t heroesapp .
 
-2. Ejecuta el contenedor:
+3. Ejecuta el contenedor:
 docker run -p 80:80 heroesapp
 Visita `http://localhost/` en tu navegador.
 
